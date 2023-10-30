@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ahmed Portfolio Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+  <!-- Update these with your own fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo/1.png" alt="" />
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+        <li class="nav__item">
+          <a href="#services" class="nav__link">My Services</a>
+        </li>
+        <li class="nav__item">
+          <a href="#about" class="nav__link">About me</a>
+        </li>
+        <li class="nav__item">
+          <a href="#work" class="nav__link">My Work</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Introduction -->
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+      Hi, I am <strong>Ahmed Ibrahim </strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">
+      front-end Student
+    </p>
+    <img src="img/3f37d05c46e1d11f.jpg" alt="a picture of Jane Smith smiling" class="intro__img" />
+  </section>
+
+  <!-- My services -->
+  <section class="my-services" id="services">
+    <h2 class="section__title section__title--services">Mes compétences</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Development</h3>
+        <p>
+          J’ai réalisé mon portefolio avec HTML, CSS et j’utilise un outil de
+          maquettage comme Figma. Je push mes projets sur GitHub
+        </p>
+      </div>
+      <!-- / service -->
+
+      <div class="service">
+        <h3>Canva</h3>
+        <p>
+          Avec Canva je peux faire Charte graphique, Logo et CV, Infographic
+          et Persona.
+        </p>
+      </div>
+      <!-- / service -->
+
+      <div class="service">
+        <h3>WordPress</h3>
+        <p>
+          Je connais les bases de Wordpress et je vais les approfondir
+          prochainement lors du module dédié dans ma formation DÉCOUVERTE DES
+          TECHNIQUES DE BASE DU MULTIMÉDIA
+        </p>
+      </div>
+      <!-- / service -->
+    </div>
+    <!-- / services -->
+
+    <a href="#work" class="btn">My Work</a>
+  </section>
+
+  <!-- About me -->
+  <section class="about-me" id="about">
+    <h2 class="section__title section__title--about">A propos de moi</h2>
+    <p class="section__subtitle section__subtitle--about">
+      J’ai décidé de quitter mon pays, afin d’avoir l’opportunité de me former sur un métier qui me pasionne.                                                                    
+        Dans l’attente de trouver une formation comme développeur web, j’ai suivi des cours en auto-didacte sur le site Freecodecamp et d’autres sites de formations à distance.                                                
+     actuellement je veins dr terminé une formation de découverte 
+des techniques de base du multimédia chez Humanbooster et recherche une formation développeur web et web mobile.
+    </p>
+
+    <div class="about-me__body">
+      <p></p>
+      <p></p>
+    </div>
+
+    <img src="img/20230330_121039.jpg" alt="s" class="about-me__img" />
+  </section>
+
+  <!-- My Work -->
+  <section class="my-work" id="work">
+    <h2 class="section__title section__title--work">My work</h2>
+    <p class="section__subtitle section__subtitle--work">
+      A selection of my range of work
+    </p>
+
+    <div class="portfolio">
+      <!-- Portfolio item 01 -->
+      <a href="portfolio-item.html" class="portfolio__item">
+        <img src="img/first-main.jpg" alt="" class="portfolio__img" />
+      </a>
+      <!-- Portfolio item 01 -->
+      <a href="portfolio-item.html" class="portfolio__item">
+        <img src="img/first section.png" alt="" class="portfolio__img" />
+      </a>
+      <!-- Portfolio item 01 -->
+      <a href="portfolio-item.html" class="portfolio__item">
+        <img src="img/first footer.png" alt="" class="portfolio__img" />
+      </a>
+      <!-- Portfolio item 01 -->
+      <a href="portfolio-item.html" class="portfolio__item">
+        <img src="img/FB_IMG_1688063679805.jpg" alt="" class="portfolio__img" />
+      </a>
+      <!-- Portfolio item 01 -->
+      <a href="portfolio-item.html" class="portfolio__item">
+        <img src="img/FB_IMG_1688063679805.jpg" alt="" class="portfolio__img" />
+      </a>
+      <!-- Portfolio item 01 -->
+      <a href="portfolio-item.html" class="portfolio__item">
+        <img src="img/FB_IMG_1688063679805.jpg" alt="" class="portfolio__img" />
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <!-- replace with your own email address -->
+    <a href="https://mail.google.com" class="footer__link" target="_blank">nmerabrahim@gmail.com</a>
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://codepen.io"> </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://humanbooster.com" target="_blank">
+          <i class="fas fa-school"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://www.facebook.com" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://github.com/" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
